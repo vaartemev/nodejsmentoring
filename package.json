@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "task1": "nodemon homeworks/homework1/task_1.js",
-    "task2": "nodemon homeworks/homework1/task_2.js"
+    "task2": "nodemon homeworks/homework1/task_2.js",
+    "task3_1": "nodemon --exec babel-node homeworks/homework1/task_3.1.js",
+    "task3_2": "nodemon --exec babel-node homeworks/homework1/task_3.2.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,10 @@
   },
   "homepage": "https://github.com/vaartemev/nodejsmentoring#readme",
   "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.12",
+    "@babel/preset-env": "^7.13.12",
     "nodemon": "^2.0.7"
   },
   "dependencies": {
