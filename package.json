@@ -1,0 +1,22 @@
+{
+  "name": "nodejscourse",
+  "version": "1.0.0",
+  "description": "NodeJS Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaartemev/nodejsmentoring.git"
+  },
+  "author": "Vladimir Artemev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaartemev/nodejsmentoring/issues"
+  },
+  "homepage": "https://github.com/vaartemev/nodejsmentoring#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
