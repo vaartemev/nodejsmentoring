@@ -4,7 +4,8 @@
   "description": "NodeJS Course",
   "main": "index.js",
   "scripts": {
-    "task1": "nodemon homeworks/homework1/task_1.js"
+    "task1": "nodemon homeworks/homework1/task_1.js",
+    "task2": "nodemon homeworks/homework1/task_2.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/vaartemev/nodejsmentoring#readme",
   "devDependencies": {
     "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   }
 }
